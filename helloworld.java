@@ -1,21 +1,27 @@
-import java.util.ArrayList;
+// public class helloworld {
+
+//     public static void main(String[] args) {
+//         String exclaim = addExclamationPoint("Hello world");
+//         System.out.println(exclaim);
+//     }
+
+//     public static String addExclamationPoint(String s) {
+//         return s + "!";
+//     }
+// }
 
 /**
  * helloworld
  */
+
 public class helloworld {
 
     public static void main(String[] args) {
-        String exclaim = addExclamationPoint("Hello world");
-        System.out.println(exclaim);
-
-        // Getting from Animal.java
-        Animal a = new Animal();
-        String dog = a.iAmDog();
-        System.out.println(dog);
+        String addString = addExclamationMark("There should be an exclamation mark at the end of this sentence");
+        System.out.println(addString);
     }
 
-    public static String addExclamationPoint(String s) {
+    public static String addExclamationMark(String s) {
         return s + "!";
     }
 }
